@@ -7,7 +7,7 @@ export default function handler(req, res) {
   res.status(200).json({
     name : "Crypto-Dev NFT #" + tokenId , 
     description : "This is an NFT for Developers in Crypto" ,
-    image_data : imageUrl+tokenId+".svg"
+    image : imageUrl+tokenId+".svg"
   
   })
 }
