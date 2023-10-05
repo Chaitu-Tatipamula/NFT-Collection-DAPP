@@ -374,7 +374,7 @@ export default function Home() {
       if(isOwner  ){
         return (
           <div>
-              {presaleEnded?
+              {!presaleStarted || presaleEnded?
               <div>
                   <div className={styles.description}>
                      Presale Ended Start again..!
